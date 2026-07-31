@@ -330,10 +330,11 @@ a { color: inherit; }
   flex: 0 0 100%;
   width: 100%;
   height: 100%;
-  object-fit: cover;
   display: block;
   background: var(--ink);
 }
+.gallery-track img { object-fit: cover; }
+.gallery-track video { object-fit: contain; }
 
 .gallery-nav {
   position: absolute;
